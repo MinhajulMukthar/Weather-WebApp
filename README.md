@@ -1,7 +1,3 @@
-Yes, you can put the entire detailed project description on GitHub. Here's how you can structure it for the `README.md` or description section of your GitHub repository:
-
----
-
 # Weather Web App
 
 A simple **Weather Web App** that allows users to get real-time weather information for any city using the [OpenWeather API](https://openweathermap.org/).
@@ -42,6 +38,4 @@ A simple **Weather Web App** that allows users to get real-time weather informat
 3. Replace the API key in the `ServletWeb.java` file with your own OpenWeather API key.
 4. Access the web app via the browser, enter a city name, and get the current weather details.
 
-## Example Screenshot
-![Weather App ScreenShot](images/Screenshot (144))
-![Weather App ScreenShot](images/Screenshot (145))
+---

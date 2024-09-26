@@ -1,0 +1,28 @@
+window.onload = function() {
+
+	var weatherIcon = document.getElementById("weather-icon");
+	var val = document.getElementById("wc").value;
+	  switch (val) {
+      case 'Clouds':
+          weatherIcon.src = "images/";
+          break;
+      case 'Clear':
+          weatherIcon.src = "";
+          break;
+      case 'Rain':
+          weatherIcon.src = "";
+          break;
+      case 'Mist':
+          weatherIcon.src = "";
+          break;
+      case 'Snow':
+          weatherIcon.src = "";
+          break;
+      case 'Haze':	
+          weatherIcon.src = "";
+          break;
+		default :
+			weatherIcon.src = "images/weather-logo.png";
+			break;
+	}
+};

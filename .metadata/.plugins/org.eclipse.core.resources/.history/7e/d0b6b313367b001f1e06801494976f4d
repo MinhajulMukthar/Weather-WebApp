@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Welcome to Weather App</h1>
+<form action="/ServletWeb" method="post">
+	<input type="text" name="city" placeholder="Enter City Name" value="New Delhi">
+	<button type="submit">Search</button>
+</form>
+</body>
+</html>
